@@ -285,11 +285,11 @@
 /* mobile responsiveness */
 @media (max-width: 480px) {
   .mood-title {
-    font-size: 6vw;   /* smaller main title */
+    font-size: 8vw;   /* smaller main title */
   }
 
   .mood-instruction {
-    font-size: 3.5vw; /* smaller subtitle text */
+    font-size: 6vw; /* smaller subtitle text */
   }
 
   .back-button {
@@ -303,7 +303,7 @@
 
   .checklist-item {
     flex: 1 1 100%;      /* full width items on small screens */
-    font-size: 0.9rem;   /* smaller text */
+    font-size: 0.8rem;   /* smaller text */
     padding: 4px 8px;    /* smaller padding */
   }
 
