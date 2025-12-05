@@ -181,7 +181,7 @@ body {
     width: 350px;
     height: auto;
     z-index: 1;
-    top: 30px;
+    top: 120px;
     margin-left: 50px;
     position: absolute;
 }
@@ -241,7 +241,7 @@ body {
   width: 85%;
   max-width: 220px;
   position: absolute;
-  left: -18%;    
+  left: -38%;    
   top: 50%;       
 }
 
@@ -249,9 +249,9 @@ body {
   width: 100%;
   max-width: 600px;
   position: absolute;
-  left: 17%;      
-  bottom: 22%;    
-  transform: translateX(-50%);
+  left: -55%;      
+  bottom: 30%;    
+  
 }
 
 }
