@@ -1,5 +1,7 @@
 html {
   background-color: #ffdaf8 !important;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -319,14 +321,13 @@ body {
 @media (max-width: 480px) {
 
   body {
-    /* Force background to cover overscroll areas */
-    min-height: calc(100vh + 150px);
-    background-size: 100% 100vh;
+    padding-bottom: env(safe-area-inset-bottom);
+    min-height: 100svh; /* Smallest viewport height */
   }
   
   .mood-tracker {          
-    padding-bottom: 100px;
-    min-height: 100vh;
+    padding-bottom: calc(100px + env(safe-area-inset-bottom));
+    min-height: 100lvh;
   }
 
   .mood-title {
