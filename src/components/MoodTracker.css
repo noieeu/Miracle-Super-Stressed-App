@@ -1,5 +1,4 @@
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
   background: transparent;
@@ -9,12 +8,11 @@ body {
   font-family: 'Pixelify Sans', sans-serif;
   background:linear-gradient(to bottom,#ffdaf8, #ffe6f7, #ffdaf8);
   min-height: 100%;
+  width: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 .mood-title {
@@ -314,13 +312,9 @@ body {
 
 @media (max-width: 480px) {
   .mood-tracker{          
-    width: 100%; 
-    margin: 0;
-    overflow: auto;
-    background: linear-gradient(to bottom,#ffdaf8, #ffe6f7, #ffdaf8);
+
     padding-bottom: 100px;
-    background-attachment: fixed;
-    bavkground-size: 100% auto;
+
   }
 
   .mood-title {
