@@ -297,20 +297,20 @@
     .room {
         width: 100%;
         height: auto;
-        bottom: 70px;    /* FIX: reduced from 200px */
+        bottom: 30%;    /* FIX: reduced from 200px */
     }
 
     .cabinet {
-        width: 45%;
-        bottom: 5%;
-        left: 22%;
+        width: 70%;
+        bottom: 15%;
+        left: 18%;
         transform: translateX(-50%);
     }
 
     .bed {
-        width: 30%;
-        bottom: 15%;
-        right: 12%;
+        width: 23%;
+        bottom: 35%;
+        right: 20%;
         transform: translateX(0);
     }
 
@@ -318,14 +318,14 @@
         width: 45%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 8%;    /* FIX: reduced from 140px */
+        bottom: 25%;    /* FIX: reduced from 140px */
     }
 
     .dogstatus {
         width: 90%;
         height: auto;
         padding: 10px;
-        bottom: 20px;   /* FIX: sits closer to bottom */
+        bottom: 13%;   /* FIX: sits closer to bottom */
     }
 
     .statushappiness,
@@ -350,7 +350,7 @@
 
     .pet-name-text {
         top: 50%;
-        left: 50%;
+        left: 46%;
         font-size: 22px;
     }
 }
