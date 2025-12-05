@@ -310,13 +310,17 @@ body {
 
 
 @media (max-width: 480px) {
+  .mood-tracker{
+    height: 100vh;             
+    width: 100%;  
+  }
   .mood-title {
     font-size: 30px;
     margin-top: 50px;
   }
 
   .mood-instruction {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .back-button {
