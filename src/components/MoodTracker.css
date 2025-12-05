@@ -1,23 +1,28 @@
-body {
+html {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #ffdaf8, #ffe6f7, #ffdaf8);
   background-attachment: fixed;
-  min-height:100vh;
-  min-height:100dvh;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  min-height: 100vh;
 }
 
 .mood-tracker {
   font-family: 'Pixelify Sans', sans-serif;
   background: transparent;
-  min-height:100vh;
-  min-height:100dvh;
+  min-height: 100vh;
   width: 100%;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-size: 100% 300px;
 }
 
 .mood-title {
@@ -317,7 +322,15 @@ body {
 
 @media (max-width: 480px) {
 
-  .mood-tracker{          
+  html {
+    min-height: 100svh; /* Mobile-specific viewport fix */
+  }
+  
+  body {
+    min-height: 100dvh;
+  }
+  
+  .mood-tracker {          
     padding-bottom: 100px;
     min-height: 100dvh;
   }
