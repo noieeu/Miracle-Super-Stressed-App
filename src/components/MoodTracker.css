@@ -30,7 +30,7 @@ body {
 }
 
 .mood-instruction {
-  font-size: 20px;
+  font-size: 30px;
   color: #f95caf;
   margin: 10px 0 20px 0;
   text-align: center;
@@ -125,10 +125,10 @@ body {
   position: absolute;
   top: 20px;
   left: 20px;
-  background-color: #e26ab6 ;
+  background-color: #e26ab6 !important;
   color: white;
-  font-size: 10px ;
-  padding: 4px 8px;
+  font-size: 16px ;
+  padding: 10px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -138,24 +138,25 @@ body {
 /*Checklist*/
 
 .checklist-item {
-  font-size: 5vw;
   display: flex;
   align-items: center;
   gap: 8px;
   color: #FF69B4;
   flex: 1 1 100%;
-  padding: 4px 8px;
-  white-space: nowrap;
+  font-size: 20px;
+  flex: initial;
+  padding: initial;
+  white-space: normal;
 }
 
 .checklist-container {
   display: grid;
-  grid-template-columns: (2, 1fr); 
-  gap: 6px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
   margin-top: 20px;
   justify-content: center;
   margin: 0 auto;
-  column-gap: 2px;
+  column-gap: 100px;
 }
 
 .checklist-item input[type="checkbox"] {
@@ -315,25 +316,24 @@ body {
   }
 
   .mood-instruction {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .back-button {
-    font-size: 16px;
-    padding: 10px 20px;
+    font-size: 10px;
+    padding: 4px 8px;
   }
 
   .checklist-container {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    column-gap: 100px;
+    gap: 6px;
+    column-gap: 8px;
   }
 
   .checklist-item {
-    font-size: 20px;
-    flex: initial;
-    padding: initial;
-    white-space: normal;
+    font-size: 5vw;
+    padding: 4px 8px;
+    white-space: nowrap;
   }
 }
 
