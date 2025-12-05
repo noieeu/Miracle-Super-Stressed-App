@@ -238,21 +238,21 @@ body {
 }
 
   .mat-img {
-    width: 85%;
-    max-width: 220px;
-    position: absolute;
-    left: -15%;
-    top: 55%;
-  }
+  width: 85%;
+  max-width: 220px;
+  position: absolute;
+  left: -18%;    
+  top: 50%;       
+}
 
-  .dog-img {
-    width: 100%;
-    max-width: 200px;
-    position: absolute;
-    left: 20%;
-    bottom: 20%;   
-    transform: translateX(-50%);
-  }
+.dog-img {
+  width: 100%;
+  max-width: 600px;
+  position: absolute;
+  left: 17%;      
+  bottom: 22%;    
+  transform: translateX(-50%);
+}
 
 }
 
