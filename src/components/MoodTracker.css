@@ -356,6 +356,10 @@ body {
     padding: 4px 8px;
     white-space: nowrap;
   }
+
+  .moment-submit{
+    margin-top:5%;
+  }
 }
 
 
