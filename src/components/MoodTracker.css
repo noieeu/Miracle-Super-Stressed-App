@@ -331,6 +331,12 @@ body {
     padding-bottom: 0 !important;
   }
 
+  .history.page{
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+
+  }
+
   .mood-title {
     font-size: 25px;
     margin-top: 50px;
