@@ -7,7 +7,7 @@ body {
 
 .mood-tracker {
   font-family: 'Pixelify Sans', sans-serif;
-  background:linear-gradient(180deg,#ffdaf8, #ffe6f7, #ffdaf8);
+  background:linear-gradient(to bottom,#ffdaf8, #ffe6f7, #ffdaf8);
   object-fit:cover;
   min-height: 100%;
   padding: 20px;
