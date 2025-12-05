@@ -317,6 +317,7 @@ body {
     width: 100%; 
     margin: 0;
     overflow: auto;
+    background: linear-gradient(180deg,#ffdaf8, #ffe6f7, #ffdaf8);
   }
 
   .mood-title {
