@@ -297,7 +297,7 @@
     .room {
         width: 100%;
         height: auto;
-        bottom: 37%;    /* FIX: reduced from 200px */
+        bottom: 37%;
     }
 
     .cabinet {
@@ -318,14 +318,14 @@
         width: 45%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 34%;    /* FIX: reduced from 140px */
+        bottom: 34%;
     }
 
     .dogstatus {
         width: 90%;
         height: auto;
         padding: 10px;
-        bottom: 15%;   /* FIX: sits closer to bottom */
+        bottom: 15%;
     }
 
     .statushappiness,

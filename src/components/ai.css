@@ -7,15 +7,17 @@
 
 body {
   background: #d5ffe9;
+  
 }
 
 .ai-bg {
-  width: 100vw;
-  height: 100vh;
+  
   background: #c9ffe6;
   display: flex;
   padding: 30px;
   gap: 25px;
+  width: 100%;
+  min-height: 100vh;
 }
 
 .scenery-area {
@@ -179,7 +181,7 @@ body {
     width: 350px;
     height: auto;
     z-index: 1;
-    top: 100px;
+    top: 30px;
     margin-left: 50px;
     position: absolute;
 }
@@ -201,7 +203,7 @@ body {
 }
 
 @media (max-width: 600px) {
-.app-bg {
+.ai-bg {
   flex-direction: column;
   padding: 12px;
   gap: 12px;
@@ -239,17 +241,16 @@ body {
     width: 85%;
     max-width: 220px;
     position: absolute;
-    left: 35%;
-    bottom: 50px;
-    transform: translateX(-50%);
+    left: -15%;
+    top: 55%;
   }
 
   .dog-img {
     width: 100%;
     max-width: 200px;
     position: absolute;
-    left: 30%;
-    bottom: 55px;   
+    left: 20%;
+    bottom: 20%;   
     transform: translateX(-50%);
   }
 
