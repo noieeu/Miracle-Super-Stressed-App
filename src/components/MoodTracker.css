@@ -1,12 +1,15 @@
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background: transparent;
+  background: linear-gradient(to bottom,#ffdaf8,#ffe6f7,#ffdaf8) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .mood-tracker {
   font-family: 'Pixelify Sans', sans-serif;
-  background:linear-gradient(to bottom,#ffdaf8, #ffe6f7, #ffdaf8);
+  background:transparent !important;
   min-height: 100vh !important;
   width: 100%;
   padding: 20px;
