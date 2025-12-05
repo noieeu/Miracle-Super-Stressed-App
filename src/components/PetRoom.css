@@ -302,14 +302,14 @@
 
     .cabinet {
         width: 70%;
-        bottom: 22%;
+        bottom: 25%;
         left: 18%;
         transform: translateX(-50%);
     }
 
     .bed {
         width: 23%;
-        bottom: 38%;
+        bottom: 42%;
         right: 20%;
         transform: translateX(0);
     }
@@ -318,7 +318,7 @@
         width: 45%;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 32%;    /* FIX: reduced from 140px */
+        bottom: 34%;    /* FIX: reduced from 140px */
     }
 
     .dogstatus {
@@ -349,7 +349,7 @@
     }
 
     .pet-name-text {
-        top: 44%;
+        top: 48%;
         left: 46%;
         font-size: 22px;
     }
